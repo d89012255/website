@@ -1,0 +1,134 @@
+html{
+	width: 100%;
+}
+
+.logo_word{
+	display: flex;
+	flex-direction: column;
+	color: #ffffff;
+}
+.logo_word_index{
+	font-size: 15px;
+}
+.navbar{
+	width: 100%;
+	background-color: rgb(230, 164, 42);
+
+}
+* {
+	box-sizing: border-box;
+}
+.navbar-brand img {
+	height: 50px;
+	margin-left: 50px;
+}
+.collapse{
+	margin-right: 30px;
+}
+a.nav-link {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.navbar-nav .nav-link {
+    color:#ffffff;
+}
+
+.icon_button{
+	width: 30px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:50px!important; }
+}
+.big_container{
+	background-color: #FFCC22;
+}
+.top-article {
+    margin: 0;
+}
+
+.top-img {
+    margin-bottom: -6px;
+    position: relative;
+}
+
+.berry-cake {
+	width: 90%;
+	height: 670px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 30px;
+}
+/*天然無添加*/
+.about {
+	padding:30px 0;
+	background:  #FFCC22; 
+}
+
+
+.title {
+	font-size:50px;
+	font-weight: bold;
+}
+.title_text_center{
+	margin-top: -50px;
+}
+
+.title_line {
+	border-color:black;
+	width: 200px;
+}
+.photo_container{
+	display: flex;
+	justify-content:space-between;
+	background-color:  #FFCC22;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.first_row_photo{
+	width: 20%;
+}
+.word_container{
+	display: flex;
+	justify-content:space-between;
+	background-color:  #FFCC22;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 70px;
+	margin-top: 20px;
+}
+.word_content{
+	width: 20%;
+	font-size: 25px;
+	line-height: 1.2;
+}
+.down_photo{
+	display: flex;
+	justify-content:space-between;
+	background-color:  #FFCC22;
+	margin-left: 18%;
+	margin-bottom: 40px;
+}
+.second_row_photo{
+	width: 40%;
+}
+.down_word_content_box{
+	display: flex;
+	flex-direction:column;
+	margin-right: 25%;
+}
+.down_word_content{
+	font-size: 25px;
+	line-height: 1.2;
+
+}
+.footer_box{
+	background-color:#BB5500;
+}
+.footer_content{
+	color: #ffffff;
+}
